@@ -21,6 +21,7 @@ Lista de tecnologias utilizadas no projeto:
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
 
 ## Executando o projeto
 
