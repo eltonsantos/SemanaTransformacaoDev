@@ -20,7 +20,6 @@ export default class Autenticacao {
         this._auth = getAuth(app)
     }
 
-
     async loginGoogle(): Promise<Usuario | null> {
         const resp = await signInWithPopup(this._auth, new GoogleAuthProvider())
         return this.converterParaUsuario(resp.user)
